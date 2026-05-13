@@ -379,33 +379,6 @@ export default function HL1HomepageMockup() {
         </div>
       </section>
 
-      {/* Island Chain */}
-      <section className="px-6 md:px-12 py-28 md:py-40 bg-[#f6f1e8]">
-        <div className="max-w-[1600px] mx-auto grid grid-cols-12 gap-8 items-center">
-          <div className="col-span-12 md:col-span-4">
-            <div className="uppercase tracking-[0.34em] text-[10px] text-black/42 mb-8">Island Chain</div>
-            <h2 className="text-5xl md:text-[5vw] leading-[0.98] tracking-[-0.04em] font-light">
-              Each island carries its own geography, pace, architecture, and land relationships.
-            </h2>
-          </div>
-          <div className="col-span-12 md:col-span-8 relative h-[360px] md:h-[440px] border border-black/10 bg-[#eee7da] overflow-hidden">
-            <div className="absolute inset-10 border border-black/8" />
-            <div className="absolute left-[12%] top-[55%] w-[76%] border-t border-black/18 rotate-[-8deg]" />
-            {[
-              ['Kaua‘i', 'left-[10%] top-[22%]', 'w-24 h-14'],
-              ['O‘ahu', 'left-[32%] top-[50%]', 'w-20 h-20'],
-              ['Maui', 'left-[57%] top-[38%]', 'w-28 h-16'],
-              ['Hawai‘i', 'left-[78%] top-[62%]', 'w-36 h-24']
-            ].map(([name, pos, size]) => (
-              <div key={name} className={`absolute ${pos}`}>
-                <div className={`${size} rounded-[54%_46%_58%_42%] border border-black/20 bg-black/[0.03] rotate-[-18deg]`} />
-                <div className="mt-4 uppercase tracking-[0.24em] text-[10px] text-black/42">{name}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Editorial / Magazine Feature */}
       <section className="px-6 md:px-12 py-28 md:py-40 bg-[#171512] text-white overflow-hidden">
         <div className="max-w-[1600px] mx-auto">

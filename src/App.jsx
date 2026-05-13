@@ -108,7 +108,7 @@ export default function HL1HomepageMockup() {
 
                 <div className="col-span-12 md:col-span-3 md:col-start-10">
                   <p className="border-t border-white/18 pt-6 text-[15px] leading-8 text-white/70">
-                    Significant properties require representation informed by place and discretion. HL1 was built to provide it.
+                    In Hawaiʻi, significant properties require representation informed by place and discretion. HL1 was built to provide it.
                   </p>
                 </div>
               </div>
@@ -496,7 +496,7 @@ export default function HL1HomepageMockup() {
               Representation informed by place and discretion.
             </h2>
             <p className="mt-10 text-[15px] leading-8 text-black/62 max-w-lg">
-              Significant properties require thoughtful presentation, discretion, and representation grounded in Hawaiʻi itself. HL1 brings together a small group of Directors whose work reflects that standard throughout the islands.
+              In Hawaiʻi, significant properties require thoughtful presentation, discretion, and representation grounded in Hawaiʻi itself. HL1 brings together a small group of Directors whose work reflects that standard throughout the islands.
             </p>
             <a href="#" className="mt-10 inline-flex items-center gap-3 border-b border-black/35 pb-2 text-[10px] uppercase tracking-[0.22em] text-black/60 hover:text-black transition">
               Read the Standard <span>→</span>
